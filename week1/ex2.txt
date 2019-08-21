@@ -1,0 +1,1000 @@
+  316  sudo add-apt-repository "deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo bionic main" -u
+  317  sudo apt-get install librealsense2-dkms 
+  318  sudo apt-get install librealsense2-utils 
+  319  sudo apt-get install librealsense2-dev 
+  320  sudo apt-get install librealsense2-dbg 
+  321  realsense-viewer 
+  322  exit
+  323  export ROS_MASTER_URI=http://192.168.0.63:11311
+  324  rviz &
+  325  rtabmap
+  326  exit
+  327  ls
+  328  ssh sf@192.168.0.63
+  329  exit
+  330  exit
+  331  ssh sf@192.168.0.63
+  332  exit
+  333  exit
+  334  export ROS_MASTER_URI=http://192.168.0.63:11311
+  335  rqt &
+  336  rviz &
+  337  exit
+  338  nano .bashrc
+  339  ls
+  340  nano .bashrc
+  341  exit
+  342  sudo apt install htop
+  343  htop 
+  344  htop
+  345  exit
+  346  sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+  347  test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
+  348  test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+  349  test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
+  350  echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
+  351  brew install hello
+  352  brew install nlohmann-json
+  353  exit
+  354  ls
+  355  exit
+  356  cd Downloads/
+  357  ls
+  358  cd json/
+  359  ls
+  360  cd repos/
+  361  ls
+  362  cd Tensegrity-Robot-IU-Internship19/
+  363  ls
+  364  git diff .
+  365  git add .
+  366  git commit -m "Simple modification"
+  367  ls
+  368  cd ..
+  369  rm -rf Tensegrity-Robot-IU-Internship19/
+  370  git clone git@github.com:hany606/Tensegrity-Robot-IU-Internship19.git
+  371  top
+  372  ls
+  373  cd Tensegrity-Robot-IU-Internship19/
+  374  ls
+  375  ./setup.sh 
+  376  cd ..
+  377  rm -rf Tensegrity-Robot-IU-Internship19/
+  378  ls
+  379  cd Projects/
+  380  s
+  381  ls
+  382  git clone git@github.com:hany606/Tensegrity-Robot-IU-Internship19.git
+  383  cd Tensegrity-Robot-IU-Internship19/
+  384  ./setup.sh 
+  385  tensegrityBuild 
+  386  source ~/.bashrc
+  387  tensegrityBuild 
+  388  ./bin/build.sh 
+  389  g++ --version
+  390  gcc --version
+  391  git checkout mainDev 
+  392  git pull
+  393  tensegrityBuild 
+  394  sudo apt-get install g++-4.8
+  395  sudo update-alternatives --config gcc
+  396  sudo apt install curl
+  397  sudo apt install libglib2.0-dev
+  398  sudo apt install freeglut3
+  399  sudo apt install freeglut3-dev 
+  400  sudo apt install build-essential
+  401  sudo apt install unzip
+  402  cd ..
+  403  rm -rf Tensegrity-Robot-IU-Internship19/
+  404  git clone git@github.com:hany606/Tensegrity-Robot-IU-Internship19.git
+  405  cd Tensegrity-Robot-IU-Internship19/
+  406  ls
+  407  ./setup.sh 
+  408  tensegrityBuild 
+  409  git checkout mainDev 
+  410  cd src/dev/
+  411  ls
+  412  cd test
+  413  ls
+  414  cd ..
+  415  echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
+  416  tensegrityBuild 
+  417  ls
+  418  cd src/
+  419  ls
+  420  cd dev/
+  421  ls
+  422  cd test/
+  423  ls
+  424  git checkout develop 
+  425  ls
+  426  tensegrityBuild 
+  427  ls
+  428  cd ROS_Package/
+  429  ls
+  430  cd
+  431  ls
+  432  cd json/
+  433  ls
+  434  pwd
+  435  git pull
+  436  ls
+  437  git pull
+  438  ls
+  439  git pull
+  440  ls
+  441  git pull
+  442  tensegrityBuild 
+  443  ls
+  444  cd ..
+  445  ls
+  446  cd json/
+  447  ls
+  448  tensegrityBuild 
+  449  ls
+  450  cd ..
+  451  cd build/
+  452  ls
+  453  cd dev/
+  454  ls
+  455  cd test/
+  456  ls
+  457  ./AppsixBarsModel2 
+  458  cd ..
+  459  cd sixBars/
+  460  ls
+  461  ./AppsixBarsModel 
+  462  exit
+  463  rtabmap
+  464  ls
+  465  exit
+  466  ls
+  467  cd Downloads/home/hany/repos/Tensegrity-Robot-IU-Internship19/
+  468  nano .gitignore 
+  469  git add .
+  470  git commit -m "Add json folder"
+  471  git push origin develop
+  472  ls
+  473  exit
+  474  cd Downloads/
+  475  cd home/hany/repos/Tensegrity-Robot-IU-Internship19/src/dev/test/
+  476  ls
+  477  git add .
+  478  git commit -m "Add OpenAI test"
+  479  git push origin develop 
+  480  ls
+  481  cd Communication_protocol_test/
+  482  ls
+  483  cd ..
+  484  cd json/
+  485  ls
+  486  cd ..
+  487  ls -a
+  488  cd ..
+  489  nano .gitignore 
+  490  git add .
+  491  git commit -m "Exclude json directory"
+  492  git commit -ammend
+  493  git commit -amend
+  494  git commit --amend
+  495  sudo apt install emacs
+  496  git commit --amend
+  497  git push origin develop
+  498  ls
+  499  nano .gitignore 
+  500  git add .
+  501  git commit -m "Add json directory"
+  502  nano .gitignore
+  503  git add .
+  504  git commit -m "Add json directory"
+  505  cd src/dev/test/
+  506  git add json/
+  507  ls
+  508  git commit -m "Add json directory"
+  509  git push origin develop
+  510  cd json/
+  511  ls
+  512  cd ..
+  513  git add json/
+  514  git commit -m "Add json directory"
+  515  cd ..
+  516  git add .
+  517  git commit -m "Add json directory"
+  518  git push origin develop
+  519  git add .
+  520  git push origin develop
+  521  git commit -m "Add json directory"
+  522  cd src/dev/test/
+  523  ls
+  524  git add json/*
+  525  git add json/
+  526  git commit -m "Add json directory"
+  527  cp -rf json/ ~/Downloads/
+  528  git rm -rf --cached json/
+  529  ls
+  530  git add json/
+  531  git commit -m "Add json directory"
+  532  git push origin develop 
+  533  tensegrityBuild 
+  534  ls
+  535  cd json/
+  536  ls
+  537  cd ..
+  538  exit
+  539  export ROS_MASTER_URI=http://192.168.0.63
+  540  export ROS_MASTER_URI=http://192.168.0.63:11311
+  541  rviz &
+  542  rqt
+  543  rqt &
+  544  top
+  545  exit
+  546  ssh sf@192.168.0.63
+  547  exit
+  548  ssh sf@192.168.0.63
+  549  sudo shutdown now
+  550  htop
+  551  exit
+  552  sudo apt-get install gvfs-bin
+  553  cat /proc/sys/fs/inotify/max_user_watches
+  554  fs.inotify.max_user_watches=524288
+  555  nano /etc/sysctl.conf 
+  556  sudo nano /etc/sysctl.conf 
+  557  sudo sysctl -p
+  558  cat /proc/sys/fs/inotify/max_user_watches
+  559  cd mount/home/sf/
+  560  ls
+  561  cd Downloads/
+  562  l
+  563  nano test_camera_calib_NOT_CORRECT.yaml 
+  564  ls
+  565  cd ..
+  566  ls
+  567  cd .rtabmap/
+  568  ls
+  569  cd ..
+  570  ls
+  571  cd .ros/
+  572  ls
+  573  xdg-open cloud2.ply 
+  574  sudo apt install ctmviewer
+  575  sudo apt install openctm-tools 
+  576  ctmviewer cloud2.ply 
+  577  meshlab cloud2.ply 
+  578  sudo meshlab cloud2.ply 
+  579  cp cloud2.ply ~
+  580  exit
+  581  ls -ld mount/
+  582  dir -h
+  583  dir -l -h
+  584  ls
+  585  dir -l -h
+  586  dir mount/ -h
+  587  dir -h mount/
+  588  dir -R
+  589  ls
+  590  dir -r
+  591  du mount/
+  592  dir -h -l
+  593  du -sh mount/
+  594  ls
+  595  dir -h -l
+  596  exit
+  597  meshlab cloud2.ply 
+  598  exit
+  599  cd mount/home/sf/.ros/
+  600  dir -l -h
+  601  cd ..
+  602  dir -l -h
+  603  cat /var/log/sshd.log | grep hendrenj | grep session
+  604  netstat -tnpa | grep 'ESTABLISHED.*sshd'
+  605  sudo apt install net-tools
+  606  netstat -tnpa | grep 'ESTABLISHED.*sshd'
+  607  ps auxwww | grep sshd:
+  608  dir -l -h
+  609  sudo apt install ros-melodic-turtlebot3*
+  610  sudo apt install ros-melodic-*
+  611  exit
+  612  /usr/bin/python3 -m pip install -U pylint --user
+  613  cd ..
+  614  ls
+  615  cd ..
+  616  ls
+  617  clear
+  618  rtabmap-databaseViewer 190704-174208.db 
+  619  rm -rf 190704-174208.db 
+  620  ls
+  621  rm -rf cloud2.ply 
+  622  ls
+  623  exit
+  624  ssh sf@192.168.0.63
+  625  exit
+  626  rosrun rtabmap_ros data_player _database="~/rtabmap_db/rtabmap14_8_1.db"
+  627  rosrun rtabmap_ros data_player database="~/rtabmap_db/rtabmap14_8_1.db"
+  628  rosrun rtabmap_ros data_player _database:="~/rtabmap_db/rtabmap14_8_1.db"
+  629  exit
+  630  rviz
+  631  exit
+  632  roscore
+  633  exit
+  634  ls
+  635  cd rtabmap_db/
+  636  ls
+  637  cat rtabmap14_8_1.db 
+  638  exit
+  639  rtabmap
+  640  sudo shutdown now
+  641  roscd rtabmap_ros/
+  642  cp ~/mount/home/sf/catkin_ws/src/rtabmap_ros/launch/rtabmap_mod.launch .
+  643  sudo cp ~/mount/home/sf/catkin_ws/src/rtabmap_ros/launch/rtabmap_mod.launch .
+  644  sudo cp ~/mount/home/sf/catkin_ws/src/rtabmap_ros/launch/rtabmap_mod.launch ./
+  645  sudo cp ~/mount/home/sf/catkin_ws/src/rtabmap_ros/launch/rtabmap_mod.launch ~/
+  646  cd ~
+  647  cd mount/home/sf/catkin_ws/src/rtabmap_ros/launch/
+  648  ls
+  649  cp rtabmap_mod.launch  ~
+  650  roscd rtabmap_ros/
+  651  s
+  652  ls
+  653  cd launch/
+  654  sudo cp ~/rtabmap_mod.launch ./
+  655  ls
+  656  exit
+  657  sudo usermod -a -G dialout $USER
+  658  sudo apt-get remove modemmanager -y
+  659  sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav -y
+  660  cd Downloads/
+  661  ls
+  662  export ROS_MASTER_URI=http://198.168.0.63:11311
+  663  export ROS_MASTER_URI=http://192.168.0.63:11311
+  664  chmod +x ./QGroundControl.AppImage
+  665  ./QGroundControl.AppImage 
+  666  oslaunch rtabmap_ros rtabmap_mod.launch approx_sync:=true rviz:=false rtabmapviz:=false visual_odometry:=false odom_topic:=/T265/odom/sample rtabmap_args:="--delete_db_on_start"
+  667  roslaunch rtabmap_ros rtabmap_mod.launch approx_sync:=true rviz:=false rtabmapviz:=false visual_odometry:=false odom_topic:=/T265/odom/sample rtabmap_args:="--delete_db_on_start"
+  668  roslaunch rtabmap_ros rtabmap_mod.launch approx_sync:=true rviz:=true rtabmapviz:=true visual_odometry:=false odom_topic:=/T265/odom/sample rtabmap_args:="--delete_db_on_start"
+  669  roslaunch rtabmap_ros rtabmap_mod.launch approx_sync:=true rviz:=false rtabmapviz:=false visual_odometry:=false odom_topic:=/T265/odom/sample rtabmap_args:="--delete_db_on_start"
+  670  exit
+  671  cd mount/
+  672  cd dev1
+  673  cd ..
+  674  sshfs sf@192.168.0.63:/ mount/dev1
+  675  sshfs sf@192.168.0.63:/ mount/
+  676  ls
+  677  cd mount/
+  678  cd ..
+  679  wget http://fr.archive.ubuntu.com/ubuntu/pool/main/g/gst-plugins-base0.10/libgstreamer-plugins-base0.10-0_0.10.36-1_amd64.deb
+  680  wget http://fr.archive.ubuntu.com/ubuntu/pool/universe/g/gstreamer0.10/libgstreamer0.10-0_0.10.36-1.5ubuntu1_amd64.deb
+  681  sudo dpkg -i libgstreamer*.deb
+  682  Exec=env QT_SCALE_FACTOR=2 toggldesktop
+  683  sudo apt-get install alacarte
+  684  alacarte 
+  685  exit
+  686  cd Downloads/
+  687  ks
+  688  ls
+  689  ./QGroundControl.AppImage 
+  690  exit
+  691  export ROS_MASTER_URI=http:/192.168.0.63:11311
+  692  rvi
+  693  rviz 
+  694  export ROS_MASTER_URI=http://192.168.0.63:11311
+  695  rviz 
+  696  rviz &
+  697  git config --global core.editor "nano"
+  698  ls
+  699  cd mount/
+  700  ls
+  701  cd D
+  702  cd home/
+  703  cd sf/Downloads/
+  704  ls
+  705  cd ..
+  706  cd Documents/
+  707  ls
+  708  cd ..
+  709  cd .rtabmap/
+  710  ls
+  711  cd ..
+  712  cd .ros/
+  713  ls
+  714  sudo cp rtabmap14_8_1.db  ~/
+  715  cp rtabmap14_8_1.db  ~/
+  716  ls
+  717  cd ~
+  718  ls
+  719  mkdir devel
+  720  ls
+  721  mkdir -p devel/COEX
+  722  mkdir -p devel/COEX/SLAM
+  723  mv rtabmap14_8_1.db sfnanoArchive.tar.gz devel/COEX/SLAM/
+  724  ls
+  725  cd devel/
+  726  ls
+  727  cd COEX/
+  728  cd SLAM/
+  729  ls
+  730  cd ~
+  731  ls
+  732  tar -czfv sfnanohome.tar.gz mount/home/
+  733  sudo tar -czfv sfnanohome.tar.gz mount/home/
+  734  tar -czfv sfnanohome.tar.gz mount/home/
+  735  ls
+  736  rm -rf v
+  737  ls
+  738  tar -czfv sfnanohome.tar.gz mount/home/sf/
+  739  tar -czvf sfnanohome.tar.gz mount/home/sf/
+  740  exi
+  741  exit
+  742  ls
+  743  rm -rf rtabmap_mod.launch 
+  744  ls
+  745  ls -a
+  746  ls
+  747  clear
+  748  ls
+  749  mv rtabmap_db/ repos/COEX/COEX-Internship19/projects/SLAM/
+  750  ls
+  751  cd repos/
+  752  ls
+  753  cd COEX/
+  754  ls
+  755  cd COEX-Internship19/
+  756  ls
+  757  git add .
+  758  git commit -m "Add the last db from rtabmap"
+  759  cd projects/
+  760  ls
+  761  cd SLAM/
+  762  ls
+  763  rm -rf cleverMove.py main.py settings.py util.py 
+  764  ls
+  765  cd ..
+  766  git add .
+  767  git commit -m "Remove unnecessary files"
+  768  git push
+  769  git pull
+  770  git push
+  771  git add .
+  772  git commit -m "Remove unnecessary files"
+  773  ls
+  774  cd ..
+  775  nano .gitignore 
+  776  git add .
+  777  git commit -m "Add the last db from rtabmap"
+  778  git push
+  779  cd projects/
+  780  ls
+  781  cd SLAM/
+  782  ls
+  783  tar -czvf rtabmap_db.tar.gz rtabmap_db/
+  784  ls
+  785  dir -lh
+  786  cd rtabmap_db/
+  787  dir -lh
+  788  cd ..
+  789  tar -czvf rtabmap_db2.tar.gz rtabmap_db.tar.gz 
+  790  dir -lh
+  791  rm -rf rtabmap_db2.tar.gz 
+  792  ls
+  793  rm -rf rtabmap_db
+  794  rm -rf rtabmap_db.tar.gz 
+  795  ls
+  796  git add .
+  797  git commit -m "Finalize the repo"
+  798  git push
+  799  ls
+  800  cd ..
+  801  ls
+  802  nano .gitignore 
+  803  git add .
+  804  git commit -m "Finalize the repo"
+  805  git push
+  806  git pull
+  807  git push
+  808  cd projects/SLAM/
+  809  ls
+  810  git rm -r --cached .
+  811  ls
+  812  git add .
+  813  git commit -m "Finalize the repo"
+  814  gut push
+  815  git push
+  816  cd ..
+  817  ls
+  818  cd ..
+  819  ls
+  820  cd COEX/
+  821  ls
+  822  rm -rf clever/
+  823  ls
+  824  rm -rf COEX-Internship19/
+  825  ls
+  826  git clone git@github.com:hany606/COEX-Internship19.git
+  827  cd ..
+  828  ls
+  829  rm -rf v
+  830  ls
+  831  rm -rf sfnanohome.tar.gz 
+  832  ls
+  833  exit
+  834  cd repos/
+  835  ls
+  836  cd COEX/
+  837  ls
+  838  cd COEX-Internship19/
+  839  s
+  840  cd projects/
+  841  ls
+  842  cd SL
+  843  cd SLAM/
+  844  ls
+  845  ls -a
+  846  ls
+  847  cd .. 
+  848  cd ..
+  849  slc
+  850  ls
+  851  exit
+  852  ssh sf@192.168.0.63
+  853  ssh -Y sf@192.168.0.63
+  854  sudo shutdown now
+  855  export ROS_MASTER_URI=http://192.168.0.63:11311
+  856  rviz
+  857  rviz &
+  858  rqt &
+  859  rostopic list
+  860  sudo reboot
+  861  for szFile in /path/*.png; do      convert "$szFile" -rotate 90 /tmp/"$(basename "$szFile")" ;  done
+  862  for szFile in ./photo_2019-08-17_15-55-26.jpg; do      convert "$szFile" -rotate 90 /tmp/"$(basename "$szFile")" ;  done
+  863  lsc
+  864  exit
+  865  sudo reboot
+  866  npm install -g wunderline
+  867  sudo apt install npm
+  868  sudo apt install node-gyp
+  869  sudo apt install node
+  870  cd Downloads/
+  871  ls
+  872  curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+  873  sudo apt install nodejs
+  874  sudo apt install npm
+  875  sudo apt install node-*
+  876  sudo apt update
+  877  sudo apt install npm
+  878  sudo apt install nodejs
+  879  node
+  880  npm
+  881  npm install -g wunderline
+  882  sudo npm install -g wunderline
+  883  wunderline auth
+  884  wunderline list
+  885  wunderline all
+  886  wunderline alist Tommorow
+  887  wunderline alist TOMORROW
+  888  wunderline alist Tomorrow
+  889  wunderline list Tomorrow
+  890  wunderline done Talk to Serget
+  891  wunderline done Talk to Sergey
+  892  wunderline done
+  893  cd ..
+  894  ls
+  895  cd ..
+  896  ls
+  897  cd bin/
+  898  ls
+  899  find brew .
+  900  find brew
+  901  ls
+  902  cd ..
+  903  cd home/hany/
+  904  ls
+  905  brew update
+  906  brew list
+  907  nano .profile 
+  908  sudo reboot
+  909  ls -lha /bin/brew
+  910  ls -lha /usr/local/bin/brew
+  911  exit
+  912  cd Downloads/
+  913  ls
+  914  tar -xf AirSim-Linux.tar.gz AirSim-Linux/
+  915  ls
+  916  rm -rf AirSim-Linux
+  917  tar -xf AirSim-Linux.tar.gz
+  918  rm -rf AirSim-Linux
+  919  tar -xf AirSim-Linux.tar.gz AirSim-Linux/
+  920  ls
+  921  cd AirSim-Linux/
+  922  ls
+  923  cd ..
+  924  mv AirSim-Linux ~/repos/Setup_Libraries/
+  925  ls
+  926  mv *.pak ~/repos/Setup_Libraries/AirSim-Linux/AirSimExe/Content/Paks/
+  927  ls
+  928  sudo apt update
+  929  sudo apt remove docker docker.io docker-engine
+  930  sudo apt install docker.io
+  931  sudo systemctl start docekr
+  932  sudo systemctl start docker
+  933  sudo systemctl enable docker
+  934  docker --version
+  935  mkdir docker
+  936  cd docker/
+  937  ls
+  938  mkdir tut
+  939  cd tut/
+  940  nano DockerFile
+  941  ls
+  942  cd ..
+  943  cd tut/
+  944  mv DockerFile Dockerfile
+  945  cd ..
+  946  ls
+  947  cd ..
+  948  cd repos/Setup_Libraries/
+  949  ls
+  950  cd AirSim
+  951  ls
+  952  cd ..
+  953  ls
+  954  cd AirSim-Linux/
+  955  ls
+  956  cd ..
+  957  cd AirSim
+  958  ls
+  959  cd ..
+  960  cd  AirSim-Linux/
+  961  ls
+  962  ./AirSimExe.sh -windowed
+  963  cd ..
+  964  cd AirSim
+  965  git status
+  966  basename `git rev-parse --show-toplevel`
+  967  cd ..
+  968  cd AirSim-Linux/
+  969  basename `git rev-parse --show-toplevel`
+  970  ls
+  971  sudo shutdown now
+  972  cd repos/
+  973  ls
+  974  cd Projects/
+  975  ls
+  976  cd ..
+  977  cd Setup_Libraries/
+  978  ls
+  979  git clone git@github.com:microsoft/AirSim.git
+  980  git clone -b 4.18 https://github.com/EpicGames/UnrealEngine.git
+  981  ls
+  982  rm -rf UnrealEngine/
+  983  ls
+  984  git clone -b 4.18 https://github.com/EpicGames/UnrealEngine.git
+  985  git clone -b 4.18 git@github.com:EpicGames/UnrealEngine.git
+  986  cd repos/
+  987  cd ..
+  988  cd Downloads/
+  989  ls
+  990  rm -rf *.crdownload
+  991  ls
+  992  cd repos/
+  993  ls
+  994  cd Setup_Libraries/
+  995  git clone git@github.com:vkurenkov/tensegrity.git
+  996  cd tensegrity/
+  997  ls
+  998  python --version
+  999  python3 example_six_bar_ball.py 
+ 1000  python example_six_bar_ball.py 
+ 1001  python3 example_six_bar_ball.py 
+ 1002  sudo pip3 install dataclasses
+ 1003  python3 example_six_bar_ball.py 
+ 1004  python3 example_leg.py 
+ 1005  python3 example_n_prism.py 
+ 1006  sudo shutdown now
+ 1007  ls
+ 1008  exit
+ 1009  cd repos/
+ 1010  ls
+ 1011  cd Projects/
+ 1012  ls
+ 1013  cd ..
+ 1014  cd Setup_Libraries/
+ 1015  ls
+ 1016  sudo reboot
+ 1017  exit
+ 1018  vulkaninfo | less
+ 1019  ls
+ 1020  exit
+ 1021  sudo apt install libvulkan1 mesa-vulkan-drivers vulkan-utils
+ 1022  sudo apt install lshw
+ 1023  lshw
+ 1024  lshw -html >hardware.html
+ 1025  xdg-open hardware.html 
+ 1026  ls
+ 1027  mv hardware.html .hardware.html
+ 1028  ls
+ 1029  sudo apt install libvulkan1 mesa-vulkan-drivers vulkan-utils
+ 1030  sudo add-apt-repository ppa:oibaf/graphics-drivers
+ 1031  sudo add-apt-repository ppa:graphics-drivers/ppa
+ 1032  ps -A | grep apt
+ 1033  sudo kill -9 9081
+ 1034  sudo kill -9 10246
+ 1035  sudo kill -9 10327
+ 1036  sudo add-apt-repository ppa:graphics-drivers/ppa
+ 1037  sudo apt update
+ 1038  sudo apt install nvidia-graphics-drivers-396 nvidia-settings vulkan vulkan-utils
+ 1039  sudo apt update
+ 1040  sudo add-apt-repository ppa:graphics-drivers/ppa
+ 1041  sudo apt install nvidia-graphics-drivers-396 nvidia-settings vulkan vulkan-utils
+ 1042  V
+ 1043  sudo lshw -C video
+ 1044  sudo lshw -C video -html > .videoCard.html
+ 1045  xdg-open .videoCard.html 
+ 1046  sudo apt install nvidia-graphics-drivers-396 nvidia-settings vulkan vulkan-utils
+ 1047  vulkan --version
+ 1048  sudo apt install nvidia-graphics-drivers-396 nvidia-settings vulkan vulkan-utils
+ 1049  sudo add-apt-repository ppa:graphics-drivers/ppa
+ 1050  sudo apt update
+ 1051  sudo apt install nvidia-graphics-drivers-396 nvidia-settings vulkan vulkan-utils
+ 1052  exit
+ 1053  cd Downloads/
+ 1054  ks
+ 1055  ls
+ 1056  clear
+ 1057  ls
+ 1058  rm -rf *.crdownload
+ 1059  ls
+ 1060  ks
+ 1061  ls
+ 1062  mv *.pak ~/repos/Setup_Libraries/AirSim-Linux/AirSimExe/Content/Paks/
+ 1063  ls
+ 1064  cd ~/repos/
+ 1065  cd Setup_Libraries/
+ 1066  ls
+ 1067  cd AirSim-Linux/
+ 1068  ls
+ 1069  ./AirSimExe.sh -windowed
+ 1070  sudo apt install libvulkan1
+ 1071  sudo apt install nvidia-driver-430
+ 1072  ./AirSimExe.sh -windowed
+ 1073  ls
+ 1074  AirSimExe/
+ 1075  ls
+ 1076  cd AirSimExe/
+ 1077  ls
+ 1078  cd Content/
+ 1079  ls
+ 1080  cd Paks/
+ 1081  ls
+ 1082  cd ..
+ 1083  ls
+ 1084  cd ..
+ 1085  ls
+ 1086  ls -lh
+ 1087  exit
+ 1088  sudo  pip install airsimneurips
+ 1089  exit
+ 1090  sudo pip install pypython
+ 1091  sudo pip3 install pypython
+ 1092  exit
+ 1093  cd Downloads/
+ 1094  ls
+ 1095  tar -xvf AirSim-Linux.tar.xz AirSim-Linux/
+ 1096  tar -xvf AirSim-Linux.tar.xz AirSim-Linux2/
+ 1097  mkdir AirSim-Linux2
+ 1098  tar -xvf AirSim-Linux.tar.xz AirSim-Linux2/
+ 1099  cd AirSim-Linux2/
+ 1100  tar -xvf AirSim-Linux.tar.xz
+ 1101  tar -xvf ../AirSim-Linux.tar.xz
+ 1102  ls
+ 1103  mv AirSim-Linux/ ~/repos/Setup_Libraries/
+ 1104  cd ~/repos/Setup_Libraries/
+ 1105  ls
+ 1106  cd AirSim-Linux/
+ 1107  ls
+ 1108  ./AirSimExe.sh -windowed
+ 1109  exit
+ 1110  ls
+ 1111  cd repos/Setup_Libraries/
+ 1112  ls
+ 1113  cd AirSim-Linux/
+ 1114  ls
+ 1115  ./AirSimExe.sh 
+ 1116  sudo ldconfig\
+ 1117  sudo ldconfig
+ 1118  vim AirSimExe.sh 
+ 1119  ./AirSimExe.sh 
+ 1120  ls
+ 1121  cd ..
+ 1122  rm -rf AirSim-Linux/
+ 1123  ls
+ 1124  exit
+ 1125  htop
+ 1126  sudo apt-get install lm-sensors 
+ 1127  sudo sensors-detect
+ 1128  sudo service kmod start
+ 1129  sensors
+ 1130  sudo apt-get install hddtemp
+ 1131  sudo hddtemp /dev/sda
+ 1132  lsmod
+ 1133  ls
+ 1134  sensors
+ 1135  watch sensors
+ 1136  ls
+ 1137  exit
+ 1138  exot
+ 1139  exit
+ 1140  sudo dnf install zsh
+ 1141  sudo apt install zsh
+ 1142  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+ 1143  ls
+ 1144  tensegrityBuild 
+ 1145  exit
+ 1146  nano .zshrc 
+ 1147  cd /opt/ros/melodic/
+ 1148  ls
+ 1149  cd ~
+ 1150  nano .zshrc 
+ 1151  ls
+ 1152  cd repos/
+ 1153  ls
+ 1154  cd Setup_Libraries/
+ 1155  ls
+ 1156  cd UnrealEngine/
+ 1157  ls
+ 1158  make 
+ 1159  cd ..
+ 1160  ls
+ 1161  ./setup.sh 
+ 1162  sudo apt update
+ 1163  sudo apt upgrad
+ 1164  sudo apt update
+ 1165  sudo apt install libssl1.0-dev
+ 1166  ls
+ 1167  ./setup.sh 
+ 1168  cd ..
+ 1169  cd AirSim
+ 1170  ls
+ 1171  cd cmake_build/
+ 1172  cd ..
+ 1173  ./setup.sh 
+ 1174  rm -rf cmake_build/
+ 1175  ./setup.sh 
+ 1176  sudo apt install build-essential checkinstall zlib1g-dev -y
+ 1177  cd /usr/local/src/
+ 1178  wget https://www.openssl.org/source/openssl-1.0.2o.tar.gz
+ 1179  tar -xf openssl-1.0.2o.tar.gz
+ 1180  ls
+ 1181  ls -a
+ 1182  sudo wget https://www.openssl.org/source/openssl-1.0.2o.tar.gz
+ 1183  sudo tar -xf openssl-1.0.2o.tar.gz
+ 1184  cd openssl-1.0.2o/
+ 1185  openssl version -a
+ 1186  cd /usr/local/src/openssl-1.0.2o
+ 1187  ./config --prefix=/usr/local/ssl --openssldir=/usr/local/ssl shared zlib
+ 1188  sudo ./config --prefix=/usr/local/ssl --openssldir=/usr/local/ssl shared zlib
+ 1189  make 
+ 1190  make
+ 1191  sudo make
+ 1192  sudo make test
+ 1193  make install
+ 1194  sudo make install
+ 1195  cd /etc/ld.so.conf.d/
+ 1196  vim openssl-1.0.2o.conf
+ 1197  sudo nano openssl-1.0.2o.conf
+ 1198  sudo ldconfig -v
+ 1199  cd ~/repos/
+ 1200  ls
+ 1201  cd Setup_Libraries/
+ 1202  ls
+ 1203  cd AirSim
+ 1204  ./setup.sh 
+ 1205  rm -rf cmake_build/
+ 1206  sudo ./setup.sh 
+ 1207  ls
+ 1208  ./build.sh 
+ 1209  sudo ./build.sh 
+ 1210  ls
+ 1211  cd ..
+ 1212  cd UnrealEngine/
+ 1213  ls
+ 1214  cd Engine/Binaries/Linux/Linux/
+ 1215  ls
+ 1216  cd ..
+ 1217  UnrealEngine/Engine/Binaries/Linux/UE4Editor
+ 1218  cd ..
+ 1219  UnrealEngine/Engine/Binaries/Linux/UE4Editor
+ 1220  exit
+ 1221  cd repos/Setup_Libraries/AirSim-Linux/
+ 1222  ls
+ 1223  exit
+ 1224  git pull
+ 1225  cd /
+ 1226  ls
+ 1227  cd etc/ld.so.conf.d/
+ 1228  ls
+ 1229  nano openssl-1.0.2o.conf
+ 1230  sudo nano openssl-1.0.2o.conf
+ 1231  ldconfig
+ 1232  sudo ldconfig
+ 1233  ls
+ 1234  cd ~
+ 1235  cd repos/
+ 1236  ls
+ 1237  cd Setup_Libraries/
+ 1238  cd tensegrity/
+ 1239  ls
+ 1240  git pull
+ 1241  lss
+ 1242  exit
+ 1243  sudo apt-add-repository ppa:remmina-ppa-team/remmina-next
+ 1244  sudo apt update
+ 1245  sudo apt install remmina remmina-plugin-rdp remmina-plugin-secret remmina-plugin-spice
+ 1246  remmina
+ 1247  ls
+ 1248  cd repos/
+ 1249  ls
+ 1250  cd Setup_Libraries/
+ 1251  ls
+ 1252  cd tensegrity/
+ 1253  ls
+ 1254  python example_six_bar_ball.py 
+ 1255  python2 example_six_bar_ball.py 
+ 1256  python example_leg.py 
+ 1257  python3 example_leg.py 
+ 1258  python3 example_three_prism.py 
+ 1259  git pull
+ 1260  cd /usr/local/src/
+ 1261  ls
+ 1262  rmv /usr/bin/c_rehash /usr/bin/c_rehash.BEKUP
+ 1263  mv /usr/bin/c_rehash /usr/bin/c_rehash.BEKUP
+ 1264  sudo mv /usr/bin/c_rehash /usr/bin/c_rehash.BEKUP
+ 1265  sudo mv /usr/bin/openssl /usr/bin/openssl.BEKUP
+ 1266  sudo gedit /etc/environment 
+ 1267  sudo nano /etc/environment 
+ 1268  source /etc/environment 
+ 1269  echo $PATH
+ 1270  which openssl
+ 1271  openssl --version
+ 1272  openssl version -a
+ 1273  cd ~/repos/
+ 1274  ls
+ 1275  cd Setup_Libraries/
+ 1276  ls
+ 1277  cd tensegrity/
+ 1278  ls
+ 1279  git pull
+ 1280  bash --login
+ 1281  exit
+ 1282  ls
+ 1283  cd Setup_Libraries/tensegrity/
+ 1284  ls
+ 1285  git pull
+ 1286  sudo shutdown now
+ 1287  cd repos/
+ 1288  ls
+ 1289  cd CO
+ 1290  cd COEX/
+ 1291  ls
+ 1292  cd ..
+ 1293  cd Setup_Libraries/
+ 1294  ls
+ 1295  cd baselines/
+ 1296  git pull
+ 1297  cd ../stable-baselines/
+ 1298  ls
+ 1299  git pull
+ 1300  ls /usr/bin/ | find gcc
+ 1301  ls /usr/bin/ | grep gcc
+ 1302  ls /usr/bin/ | grep gcc >> test.txt
+ 1303  cat test.txt 
+ 1304  cd repos/
+ 1305  ls
+ 1306  mkdir Courses
+ 1307  git clone git@github.com:hany606/OS_Fall19IU.git
+ 1308  cd OS_Fall19IU/
+ 1309  ls
+ 1310  ls /usr/bin/ | grep gcc | sort -r >> ex1.txt
+ 1311  mkdir week1
+ 1312  mv ex1.txt week1/
+ 1313  ls
+ 1314  cd week1/
+ 1315  history > ex2.txt
