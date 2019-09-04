@@ -55,7 +55,7 @@ void delete_node(linked_list_node *start, int val){
     while (iter != NULL)
     {
         next_iter = next_iter->next;
-        if(iter->val == val){
+        if(iter->val == val && counter != 0){
             iter->next = NULL;
             prev_iter->next = next_iter;
             // printf("FIND IT\n");
@@ -94,7 +94,7 @@ int main(){
     print_list(initial_node);
     insert_node(initial_node, 2);
     insert_node(initial_node, 3);
-    printf("INSERTED ALL\n");
+    printf("INSERTED ALL with deletion\n");
     print_list(initial_node);
     delete_node(initial_node, 2);
     print_list(initial_node);
