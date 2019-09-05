@@ -9,16 +9,21 @@ void swap(int *arr, int i, int j){
 }
 
 int partition(int *arr, int lo, int hi){
-    int pivot = arr[hi-1];
-    int i = lo;
-    for(int j = lo; j < hi; j++){
-        if(arr[j] < pivot){
-            swap(arr, i, j);
-            i++;
-        }
+    
+    int pivot = arr[lo+(hi-lo)/2];
+    while(1){
+        while(arr[lo] < pivot)
+            lo++;
+        
+        while(arr[hi] > pivot)
+            hi--;
+        if(lo >= hi)
+            return hi;
+        swap(arr,lo,hi);
+
+        lo++;
+        hi--;
     }
-    swap(arr, i, hi-1);
-    return i;
 }
 
 void quick_sort(int *arr, int lo, int hi){
@@ -34,5 +39,10 @@ void quick_sort(int *arr, int lo, int hi){
 int main(){
 
     int arr[8] = {7,6,5,4,3,2,1,0};
+    quick_sort(arr,0,7);
+    for(int i = 0 ; i < 8; i++){
+        printf("%d ",arr[i]);
+    }
+    printf("\n");
 
 }
