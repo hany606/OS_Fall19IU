@@ -5,4 +5,4 @@
 * Exercise 3: Using singal()
 * Exercise 4: Using signal()
 * Exercise 5: Using signal() & fork()
-* Exercise 6: Using pipe()
+* Exercise 6: Using pipe(), signal() & fork()
