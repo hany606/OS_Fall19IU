@@ -1,0 +1,5 @@
+Physical addressing is the correct address and the real one for a place in memory without any transofrming of address, so, it is direct access to the memory.
+
+Virtual addressing is related more about the address space and it is transforming the address to the address space of the application.
+
+Source:https://stackoverflow.com/questions/3243610/difference-between-physical-addressing-and-virtual-addressing-concept
