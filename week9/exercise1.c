@@ -47,6 +47,7 @@ int main(int argc, char** argv){
                 break;
             }      
         }
+
         if(tmp_page_index == -1){
             miss_counter++;
         
@@ -57,8 +58,6 @@ int main(int argc, char** argv){
             }
 
             page_frame_arr[least_page_counter_index].id = needed_page;
-            // page_frame_arr[least_page_counter_index].counter = 1;
-
         }
 
         for (int i = 0; i < page_frame_num; i++)
@@ -66,7 +65,7 @@ int main(int argc, char** argv){
             page_frame_arr[i].counter >>= 1;
             
             if(page_frame_arr[i].id == needed_page)
-                page_frame_arr[i].counter |= 1<< ((sizeof(unsigned int)*8));
+                page_frame_arr[i].counter |= 1 << (sizeof(unsigned int)*8);
         }
 
     }
