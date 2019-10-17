@@ -4,7 +4,7 @@
 
 typedef struct Page
 {
-    unsigned int id;
+    int id;
     unsigned int counter;
 }Page;
 
@@ -51,11 +51,12 @@ int main(int argc, char** argv){
         if(tmp_page_index == -1){
             miss_counter++;
         
-            int least_page_counter_index = page_frame_arr[0].counter;
+            int least_page_counter_index = 0;
             for(int i = 1; i < page_frame_num; i++){
                 if(page_frame_arr[least_page_counter_index].counter > page_frame_arr[i].counter)
                     least_page_counter_index = i;
             }
+            // printf("%d --- %d\n",page_frame_arr[least_page_counter_index].id, needed_page);
 
             page_frame_arr[least_page_counter_index].id = needed_page;
         }
