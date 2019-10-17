@@ -41,6 +41,8 @@ int main(int argc, char** argv){
         int tmp_page_index = -1;
 
         for(int i = 0; i < page_frame_num; i++){
+        // printf("%d --- %d\n",page_frame_arr[i].id, needed_page);
+
             if(page_frame_arr[i].id == needed_page){
                 tmp_page_index = i;
                 hit_counter++;
@@ -65,8 +67,11 @@ int main(int argc, char** argv){
         {
             page_frame_arr[i].counter >>= 1;
             
-            if(page_frame_arr[i].id == needed_page)
-                page_frame_arr[i].counter |= 1 << (sizeof(unsigned int)*8);
+            if(page_frame_arr[i].id == needed_page){
+                page_frame_arr[i].counter |= ((1 << ((sizeof(unsigned int)*8)-1)));
+                // printf("%ud", page_frame_arr[i].counter);
+                // printf("debug\n");
+            }
         }
 
     }
