@@ -1,0 +1,22 @@
+touch _ex3.txt  ---> ls -l _ex3.txt  --->  -rw-rw-r-- 1 hany hany 0 Oct 24 23:15 _ex3.txt
+
+chmod -x _ex3.txt  ---> ls -l _ex3.txt  --->  -rw-rw-r-- 1 hany hany 0 Oct 24 23:15 _ex3.txt
+
+chmod ou+rwx _ex3.txt  ---> ls -l _ex3.txt  --->  -rwxrw-rwx 1 hany hany 0 Oct 24 23:15 _ex3.txt
+
+
+
+chmod 660 ex3.txt  ---> ls -l _ex3.txt  --->  -rwxrw-rwx 1 hany hany 0 Oct 24 23:15 _ex3.txt
+
+660 == -rw-rw----  (permission of read & write not execute for user(owner) and group but no permission for others
+
+chmod 775 ex3.txt  ---> ls -l _ex3.txt  --->  -rwxrwxr-x 1 hany hany 906 Oct 24 23:21 ex3.txt
+
+775 == -rwxrwxr-x (permission of read, write & execute for user(owner) and group but only read and execute for others
+
+chmod 775 ex3.txt  ---> ls -l _ex3.txt  --->  -rwxrwxrwx 1 hany hany 906 Oct 24 23:21 ex3.txt
+777 == -rwxrwxrwx (permission of read, write & execute for user(owner), groups and others
+
+Source:
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/s1-navigating-ownership.html
+https://www.pluralsight.com/blog/it-ops/linux-file-permissions

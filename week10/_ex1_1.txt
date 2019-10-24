@@ -1,0 +1,8 @@
+  File: _ex1.txt
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 808h/2056d	Inode: 8534654     Links: 3
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/    hany)   Gid: ( 1000/    hany)
+Access: 2019-10-24 22:51:45.613820359 +0300
+Modify: 2019-10-24 22:52:45.362043438 +0300
+Change: 2019-10-24 22:52:45.362043438 +0300
+ Birth: -
