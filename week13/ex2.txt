@@ -1,0 +1,10 @@
+Avoidance:
+    It is the strategy to avoid creating a deadlock or getting into it. This can be done by Banker's Algorithm.
+Prevention:
+    prevent the deadlock by eleminating any of the four conditions: Mutual Exclusion, Hold and Wait, No preemption, Circular wait
+    by different ways for each one.
+Recovery:
+    It is done through killing the process & resource preemption which can be explained in details by the three basic approaches
+    Inform the system operator, and allow him/her to take manual intervention.
+    Terminate one or more processes involved in the deadlock
+    Preempt resources.
